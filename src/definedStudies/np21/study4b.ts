@@ -29,7 +29,7 @@ const sp: StudyProps = {
     hyperParams: hyperParams,
     image: mcn3Input,
     studyParams: study,
-    title: "Study 4a: Using context during learninig in an MCN network.",
+    title: "Study 4b: Using context during learninig in an MCN network.",
     trainingSets: trainingSets
 }
 

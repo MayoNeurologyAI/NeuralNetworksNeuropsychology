@@ -1206,7 +1206,7 @@ var app = (function () {
         hyperParams: hyperParams,
         image: img,
         studyParams: study,
-        title: "Study 4a: Using context during learninig in an MCN network.",
+        title: "Study 4b: Using context during learninig in an MCN network.",
         trainingSets: trainingSets
     };
 
