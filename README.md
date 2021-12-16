@@ -4,6 +4,10 @@ Source code for manuscript to be submitted to Neuropsychology, “Neural network
 
 Released under the GNU General Public License v3.0. Copyright 2021 Mayo Foundation for Medical Education and Research.
 
+## Github page
+
+The github page running this code can be found [here](https://mayoneurologyai.github.io/NeuralNetworksNeuropsychology/)
+
 ## Local installation
 
 To run the code locally, you will need to have [node](https://nodejs.dev/) installed.
