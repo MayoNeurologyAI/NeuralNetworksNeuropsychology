@@ -1519,7 +1519,7 @@ var app = (function () {
     			table = element("table");
     			tr0 = element("tr");
     			th0 = element("th");
-    			th0.textContent = "Avg. Epochs (std)";
+    			th0.textContent = "Avg. Training Steps (std)";
     			t3 = space();
     			th1 = element("th");
     			th1.textContent = "% Incorrect";
@@ -1538,13 +1538,13 @@ var app = (function () {
     			attr_dev(th0, "class", "svelte-4sxbt6");
     			add_location(th0, file$3, 7, 8, 116);
     			attr_dev(th1, "class", "svelte-4sxbt6");
-    			add_location(th1, file$3, 8, 8, 151);
+    			add_location(th1, file$3, 8, 8, 159);
     			add_location(tr0, file$3, 6, 4, 103);
     			attr_dev(td0, "class", "svelte-4sxbt6");
-    			add_location(td0, file$3, 11, 8, 199);
+    			add_location(td0, file$3, 11, 8, 207);
     			attr_dev(td1, "class", "svelte-4sxbt6");
-    			add_location(td1, file$3, 16, 8, 339);
-    			add_location(tr1, file$3, 10, 4, 186);
+    			add_location(td1, file$3, 16, 8, 347);
+    			add_location(tr1, file$3, 10, 4, 194);
     			attr_dev(table, "class", "svelte-4sxbt6");
     			add_location(table, file$3, 5, 0, 91);
     		},
@@ -1741,7 +1741,7 @@ var app = (function () {
     			th0.textContent = "Percent learning both problems:";
     			t3 = space();
     			th1 = element("th");
-    			th1.textContent = "Avg total epochs (std):";
+    			th1.textContent = "Avg total training steps (std):";
     			t5 = space();
     			th2 = element("th");
     			th2.textContent = "Percent failed to retain OR:";
@@ -1771,7 +1771,7 @@ var app = (function () {
     			th4.textContent = "Avg problem representations to successfully learn both problems\n                (std)";
     			t22 = space();
     			th5 = element("th");
-    			th5.textContent = "Avg total additional epochs needed for successful retraining\n                (std):";
+    			th5.textContent = "Avg total additional training steps needed for successful\n                retraining (std):";
     			t24 = space();
     			tr3 = element("tr");
     			td3 = element("td");
@@ -1789,41 +1789,41 @@ var app = (function () {
     			t34 = text(t34_value);
     			t35 = text(")");
     			attr_dev(div0, "class", "table-title svelte-4sxbt6");
-    			add_location(div0, file$2, 29, 4, 927);
+    			add_location(div0, file$2, 29, 4, 935);
     			attr_dev(th0, "class", "svelte-4sxbt6");
-    			add_location(th0, file$2, 32, 12, 1013);
+    			add_location(th0, file$2, 32, 12, 1021);
     			attr_dev(th1, "class", "svelte-4sxbt6");
-    			add_location(th1, file$2, 33, 12, 1066);
+    			add_location(th1, file$2, 33, 12, 1074);
     			attr_dev(th2, "class", "svelte-4sxbt6");
-    			add_location(th2, file$2, 34, 12, 1111);
-    			add_location(tr0, file$2, 31, 8, 996);
+    			add_location(th2, file$2, 34, 12, 1127);
+    			add_location(tr0, file$2, 31, 8, 1004);
     			attr_dev(td0, "class", "svelte-4sxbt6");
-    			add_location(td0, file$2, 37, 12, 1188);
+    			add_location(td0, file$2, 37, 12, 1204);
     			attr_dev(td1, "class", "svelte-4sxbt6");
-    			add_location(td1, file$2, 38, 12, 1263);
+    			add_location(td1, file$2, 38, 12, 1279);
     			attr_dev(td2, "class", "svelte-4sxbt6");
-    			add_location(td2, file$2, 42, 12, 1424);
-    			add_location(tr1, file$2, 36, 8, 1171);
+    			add_location(td2, file$2, 42, 12, 1440);
+    			add_location(tr1, file$2, 36, 8, 1187);
     			attr_dev(table0, "class", "svelte-4sxbt6");
-    			add_location(table0, file$2, 30, 4, 980);
+    			add_location(table0, file$2, 30, 4, 988);
     			attr_dev(div1, "class", "table-title svelte-4sxbt6");
-    			add_location(div1, file$2, 49, 4, 1603);
+    			add_location(div1, file$2, 49, 4, 1619);
     			attr_dev(th3, "class", "svelte-4sxbt6");
-    			add_location(th3, file$2, 55, 12, 1777);
+    			add_location(th3, file$2, 55, 12, 1793);
     			attr_dev(th4, "class", "svelte-4sxbt6");
-    			add_location(th4, file$2, 56, 12, 1850);
+    			add_location(th4, file$2, 56, 12, 1866);
     			attr_dev(th5, "class", "svelte-4sxbt6");
-    			add_location(th5, file$2, 60, 12, 1987);
-    			add_location(tr2, file$2, 54, 8, 1760);
+    			add_location(th5, file$2, 60, 12, 2003);
+    			add_location(tr2, file$2, 54, 8, 1776);
     			attr_dev(td3, "class", "svelte-4sxbt6");
-    			add_location(td3, file$2, 66, 12, 2149);
+    			add_location(td3, file$2, 66, 12, 2173);
     			attr_dev(td4, "class", "svelte-4sxbt6");
-    			add_location(td4, file$2, 67, 12, 2217);
+    			add_location(td4, file$2, 67, 12, 2241);
     			attr_dev(td5, "class", "svelte-4sxbt6");
-    			add_location(td5, file$2, 71, 12, 2356);
-    			add_location(tr3, file$2, 65, 8, 2132);
+    			add_location(td5, file$2, 71, 12, 2380);
+    			add_location(tr3, file$2, 65, 8, 2156);
     			attr_dev(table1, "class", "svelte-4sxbt6");
-    			add_location(table1, file$2, 53, 4, 1744);
+    			add_location(table1, file$2, 53, 4, 1760);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div0, anchor);
@@ -1980,14 +1980,14 @@ var app = (function () {
     			attr_dev(div, "class", "table-title svelte-4sxbt6");
     			add_location(div, file$2, 5, 4, 94);
     			attr_dev(th0, "class", "svelte-4sxbt6");
-    			add_location(th0, file$2, 11, 12, 316);
+    			add_location(th0, file$2, 11, 12, 324);
     			attr_dev(th1, "class", "svelte-4sxbt6");
-    			add_location(th1, file$2, 12, 12, 368);
+    			add_location(th1, file$2, 12, 12, 376);
     			add_location(tr, file$2, 7, 8, 154);
     			attr_dev(td0, "class", "svelte-4sxbt6");
-    			add_location(td0, file$2, 21, 8, 699);
+    			add_location(td0, file$2, 21, 8, 707);
     			attr_dev(td1, "class", "svelte-4sxbt6");
-    			add_location(td1, file$2, 22, 8, 770);
+    			add_location(td1, file$2, 22, 8, 778);
     			attr_dev(table, "class", "svelte-4sxbt6");
     			add_location(table, file$2, 6, 4, 138);
     		},
@@ -2105,7 +2105,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			th = element("th");
-    			t0 = text("Avg Epochs to initially learn ");
+    			t0 = text("Avg Training Steps to initially learn ");
     			t1 = text(t1_value);
     			t2 = text(" (std):");
     			attr_dev(th, "class", "svelte-4sxbt6");
@@ -2154,7 +2154,7 @@ var app = (function () {
     			t2 = text(t2_value);
     			t3 = text(")");
     			attr_dev(td, "class", "svelte-4sxbt6");
-    			add_location(td, file$2, 16, 12, 500);
+    			add_location(td, file$2, 16, 12, 508);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, td, anchor);

@@ -6,7 +6,7 @@
 <div class="table-title">Results:</div>
 <table>
     <tr>
-        <th>Avg. Epochs (std)</th>
+        <th>Avg. Training Steps (std)</th>
         <th>% Incorrect</th>
     </tr>
     <tr>

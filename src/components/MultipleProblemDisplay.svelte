@@ -8,7 +8,7 @@
     <table>
         <tr>
             {#each results.problemNames as name, index}
-                <th>Avg Epochs to initially learn {name} (std):</th>
+                <th>Avg Training Steps to initially learn {name} (std):</th>
             {/each}
             <th>Percent learning all problems:</th>
             <th>Percent retaining {results.problemNames[0]}</th>
@@ -32,7 +32,7 @@
     <table>
         <tr>
             <th>Percent learning both problems:</th>
-            <th>Avg total epochs (std):</th>
+            <th>Avg total training steps (std):</th>
             <th>Percent failed to retain OR:</th>
         </tr>
         <tr>
@@ -60,8 +60,8 @@
                 (std)</th
             >
             <th
-                >Avg total additional epochs needed for successful retraining
-                (std):</th
+                >Avg total additional training steps needed for successful
+                retraining (std):</th
             >
         </tr>
         <tr>
