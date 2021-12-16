@@ -618,21 +618,21 @@ var app = (function () {
     			attr_dev(img, "class", "image svelte-1m91a9j");
     			if (img.src !== (img_src_value = img$5)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "the maple leaf is used as the icon for the maple program");
-    			add_location(img, file$4, 12, 4, 457);
+    			add_location(img, file$4, 13, 4, 448);
     			attr_dev(div0, "class", "title");
-    			add_location(div0, file$4, 17, 4, 590);
+    			add_location(div0, file$4, 18, 4, 581);
     			attr_dev(div1, "class", "subtitle");
-    			add_location(div1, file$4, 18, 4, 625);
+    			add_location(div1, file$4, 19, 4, 616);
     			attr_dev(div2, "class", "separator svelte-1m91a9j");
-    			add_location(div2, file$4, 21, 4, 735);
+    			add_location(div2, file$4, 22, 4, 726);
     			attr_dev(button0, "class", "selectionButton svelte-1m91a9j");
-    			add_location(button0, file$4, 22, 4, 765);
+    			add_location(button0, file$4, 23, 4, 756);
     			attr_dev(div3, "class", "separator svelte-1m91a9j");
-    			add_location(div3, file$4, 25, 4, 890);
+    			add_location(div3, file$4, 26, 4, 881);
     			attr_dev(button1, "class", "selectionButton svelte-1m91a9j");
-    			add_location(button1, file$4, 26, 4, 920);
+    			add_location(button1, file$4, 27, 4, 911);
     			attr_dev(div4, "class", "content svelte-1m91a9j");
-    			add_location(div4, file$4, 11, 0, 431);
+    			add_location(div4, file$4, 12, 0, 422);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -684,7 +684,7 @@ var app = (function () {
     }
 
     function githubButtonClicked() {
-    	alert("Prior to publication submission the repository containing maple's source code will be made public");
+    	window.location.href = "https://github.com/MayoNeurologyAI/NeuralNetworksNeuropsychology";
     }
 
     function instance$5($$self, $$props, $$invalidate) {
@@ -2806,7 +2806,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (21:4) {#each studies as studyProps, index}
+    // (22:4) {#each studies as studyProps, index}
     function create_each_block(ctx) {
     	let div;
     	let studydisplay;
@@ -2832,7 +2832,7 @@ var app = (function () {
     			div = element("div");
     			create_component(studydisplay.$$.fragment);
     			attr_dev(div, "class", "study svelte-hba44x");
-    			add_location(div, file, 21, 8, 898);
+    			add_location(div, file, 22, 8, 889);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -2864,7 +2864,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(21:4) {#each studies as studyProps, index}",
+    		source: "(22:4) {#each studies as studyProps, index}",
     		ctx
     	});
 
@@ -2919,17 +2919,17 @@ var app = (function () {
     			button1 = element("button");
     			button1.textContent = "Source Code on Github";
     			attr_dev(div0, "class", "subtitle");
-    			add_location(div0, file, 14, 4, 513);
+    			add_location(div0, file, 15, 4, 504);
     			attr_dev(div1, "class", "articleTitle svelte-hba44x");
-    			add_location(div1, file, 15, 4, 583);
+    			add_location(div1, file, 16, 4, 574);
     			attr_dev(button0, "class", "navButton svelte-hba44x");
-    			add_location(button0, file, 32, 8, 1281);
+    			add_location(button0, file, 33, 8, 1272);
     			attr_dev(button1, "class", "navButton svelte-hba44x");
-    			add_location(button1, file, 33, 8, 1357);
+    			add_location(button1, file, 34, 8, 1348);
     			attr_dev(div2, "class", "navigation svelte-hba44x");
-    			add_location(div2, file, 31, 4, 1248);
+    			add_location(div2, file, 32, 4, 1239);
     			attr_dev(div3, "class", "content svelte-hba44x");
-    			add_location(div3, file, 13, 0, 487);
+    			add_location(div3, file, 14, 0, 478);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3028,7 +3028,7 @@ var app = (function () {
     }
 
     function githubClick() {
-    	alert("Prior to publication submission the repository containing maple's source code will be made public");
+    	window.location.href = "https://github.com/MayoNeurologyAI/NeuralNetworksNeuropsychology";
     }
 
     function instance$1($$self, $$props, $$invalidate) {

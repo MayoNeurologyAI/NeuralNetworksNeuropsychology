@@ -11,9 +11,8 @@
     }
 
     function githubClick() {
-        alert(
-            "Prior to publication submission the repository containing maple's source code will be made public"
-        );
+        window.location.href =
+            "https://github.com/MayoNeurologyAI/NeuralNetworksNeuropsychology";
     }
 </script>
 
