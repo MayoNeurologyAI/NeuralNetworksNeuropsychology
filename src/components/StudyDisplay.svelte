@@ -73,6 +73,10 @@
                     src={studyProps.image}
                     alt="Network architecture"
                 />
+                <div class="image-permission">
+                    Figure used with permission of Mayo Foundation for Medical
+                    Education and Research; all rights reserved.
+                </div>
             </div>
             <div class="studyDescription">
                 {studyProps.description}
@@ -145,9 +149,16 @@
         height: auto;
     }
     .studyImage {
+        pointer-events: none;
         max-width: min(90%, 600px);
         max-height: 600px;
         width: auto;
         height: auto;
+    }
+    .image-permission {
+        color: #e6e6e6;
+        font-size: 8px;
+        text-align: center;
+        padding-top: 4px;
     }
 </style>
