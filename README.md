@@ -16,4 +16,4 @@ To run the code locally, you will need to have [node](https://nodejs.dev/) insta
 2. run the program: `npm run start`
 3. open a browser and go to http://localhost:5000
 
-The user interface was built with [svelte](https://svelte.dev) framework.
+The user interface was built with the [svelte](https://svelte.dev) framework.
