@@ -51,6 +51,10 @@
 </table>
 
 <style>
+    input {
+        color: #e6e6e6;
+        background-color: #1f1f1f;
+    }
     .table-title {
         margin-top: 10px;
         color: #008080;
