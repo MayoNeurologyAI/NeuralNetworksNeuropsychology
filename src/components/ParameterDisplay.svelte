@@ -27,7 +27,7 @@
         <td><input type="number" bind:value={errorMin} /></td>
     </tr>
     <tr>
-        <th>Weight initialization minium:</th>
+        <th>Weight initialization minimum:</th>
         <td><input type="number" bind:value={initMin} /></td>
     </tr>
     <tr>
