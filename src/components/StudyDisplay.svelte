@@ -8,6 +8,7 @@
 
     import type MultiProblemProcessedResults from "../study/MultiProblemProcessedResults";
     import MultipleProblemDisplay from "./MultipleProblemDisplay.svelte";
+    import ParameterDisplay from "./ParameterDisplay.svelte";
 
     export let studyProps: StudyProps;
     export let otherStudyRunning: boolean;
@@ -75,6 +76,18 @@
             </div>
             <div class="studyDescription">
                 {studyProps.description}
+                <ParameterDisplay
+                    bind:epochMax={studyProps.studyParams.epochMax}
+                    bind:errorMin={studyProps.studyParams.errMin}
+                    bind:initMin={studyProps.hyperParams.randMin}
+                    bind:initMax={studyProps.hyperParams.randMax}
+                    bind:lr={studyProps.hyperParams.lr}
+                    bind:mo={studyProps.hyperParams.mo}
+                    bind:simCount={studyProps.studyParams.simulations}
+                    bind:learningRetries={studyProps.studyParams.retrainingMax}
+                    isMultiProblem={studyProps.trainingSets.length > 1 &&
+                        studyProps.studyParams.retrainingMax > 0}
+                />
                 {#if singleProblemStudyResults}
                     <SingleProblemDisplay results={singleProblemStudyResults} />
                 {:else if multipleProblemStudyResults}
