@@ -8,6 +8,8 @@
     export let lr: number;
     export let mo: number;
     export let simCount: number;
+    export let learningRetries: number;
+    export let isMultiProblem: boolean;
 </script>
 
 <div class="table-title">Study Parameters</div>
@@ -40,6 +42,12 @@
         <th>Momentum:</th>
         <td><input type="number" bind:value={mo} /></td>
     </tr>
+    {#if isMultiProblem}
+        <tr>
+            <th>Max learning retries:</th>
+            <td><input type="number" bind:value={learningRetries} /></td>
+        </tr>
+    {/if}
 </table>
 
 <style>

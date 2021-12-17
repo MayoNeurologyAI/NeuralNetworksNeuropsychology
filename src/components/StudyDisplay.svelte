@@ -84,6 +84,9 @@
                     bind:lr={studyProps.hyperParams.lr}
                     bind:mo={studyProps.hyperParams.mo}
                     bind:simCount={studyProps.studyParams.simulations}
+                    bind:learningRetries={studyProps.studyParams.retrainingMax}
+                    isMultiProblem={studyProps.trainingSets.length > 1 &&
+                        studyProps.studyParams.retrainingMax > 0}
                 />
                 {#if singleProblemStudyResults}
                     <SingleProblemDisplay results={singleProblemStudyResults} />
