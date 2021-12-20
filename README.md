@@ -6,7 +6,7 @@ Released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Int
 
 ## Github page
 
-The github page running this code can be found [here](https://mayoneurologyai.github.io/NeuralNetworksNeuropsychology/)
+The github page running this code can be found [here](https://mayoneurologyai.github.io/NeuralNetworksNeuropsychology/). This page is built using the bundled javascript in the 'docs' folder.
 
 ## Local installation
 
