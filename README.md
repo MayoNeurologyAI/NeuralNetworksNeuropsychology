@@ -26,7 +26,7 @@ All code is located in the 'src' folder.
 To understand and evalute the models, start with the 'architecture' folder. All networks are composed of 2 or more MplLayers. MplLayers contain the code for defining weights and bias nodes, intializing, forward activation and backwards activation. 
 
 ### MplNetwork
-The MPLNetwork class is an abstract class that defines how the MplLayers in the network interact. The abstract MplNetwork class is declared in the 'networks' folder. All networks, which define the layers and their interactions are also located in the 'networks' folder.
+The MplNetwork class is an abstract class that defines how the MplLayers in the network interact. The MplNetwork class is declared in the 'networks' folder. All networks, which define the layers and their interactions are also located in the 'networks' folder.
 
 The feed forward networks used in the paper's studies use the 'HiddenLayerNetwork' class, while the mirrored cascaded networks use the 'McnNetwork' class.
 
