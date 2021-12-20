@@ -37,3 +37,6 @@ The specific study paramters used for each study are located in the 'defineStudi
 
 ### Problem definitions
 All problems are defined in the 'trainingSets' folder.
+
+### Svelte components
+The UI was built using the [svelte](https://svelte.dev) framework. The launching component is 'App.svelte' in the root directory. All other display components are in the 'components' folder.
