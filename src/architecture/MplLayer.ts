@@ -164,5 +164,4 @@ export default class MplLayer {
             }
         }
     }
-
 }

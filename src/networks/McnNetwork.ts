@@ -20,12 +20,9 @@ export default class McnNetwork extends MplNetwork {
         this.hl = new MplLayer(inputs, hiddens, Transform.htan, bias)
     }
 
-
     generateNewNetwork(): MplNetwork {
         return new McnNetwork(this.bias, this.inputs, this.hiddens);
     }
-
-
 
     fowardPass(input: number[]): number[] {
         let hlOutput = this.hl.forward(input)
@@ -59,5 +56,4 @@ export default class McnNetwork extends MplNetwork {
     stateToString(): string {
         return `HWs: ${this.hl.params.weights}, HBs: ${this.hl.params.bias}`
     }
-
 }

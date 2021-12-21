@@ -23,20 +23,20 @@ The user interface was built with the [svelte](https://svelte.dev) framework.
 All code is located in the 'src' folder.
 
 ### MplLayer
-To understand and evalute the models, start with the 'architecture' folder. All networks are composed of 2 or more MplLayers. MplLayers contain the code for defining weights and bias nodes, intializing, forward activation and backwards activation. 
+To understand and evalute the models, start with the `architecture` folder. All networks are composed of 2 or more `MplLayers`. MplLayers contain the code for defining weights and bias nodes, intializing, forward activation and backwards activation. 
 
 ### MplNetwork
-The MplNetwork class is an abstract class that defines how the MplLayers in the network interact. The MplNetwork class is declared in the 'networks' folder. All networks, which define the layers and their interactions are also located in the 'networks' folder.
+The MplNetwork class is an abstract class that defines how the MplLayers in the network interact. The MplNetwork class is declared in the `networks` folder. All networks, which define the layers and their interactions are also located in the `networks` folder.
 
-The feed forward networks used in the paper's studies use the 'HiddenLayerNetwork' class, while the mirrored cascaded networks use the 'McnNetwork' class.
+The feed forward networks used in the paper's studies use the `HiddenLayerNetwork` class, while the mirrored cascaded networks use the `McnNetwork` class.
 
 ### Studies
-All code directly related to managing studies is in the 'study' folder. Single problem studies start with the 'singleProblemStudy' function (in the 'singleProblemStudy.ts' file) while multiple problem studies start with the 'multiProblemStudy' function (in the 'multiProblemStudy.ts file).
+All code directly related to managing studies is in the `study` folder. Single problem studies start with the `singleProblemStudy` function (in the `singleProblemStudy.ts` file) while multiple problem studies start with the `multiProblemStudy` function (in the `multiProblemStudy.ts` file).
 
-The specific study paramters used for each study are located in the 'defineStudies/np21' folder.
+The specific study parameters used for each study are located in the `defineStudies/np21` folder.
 
 ### Problem definitions
-All problems are defined in the 'trainingSets' folder.
+All problems are defined in the `trainingSets` folder.
 
 ### Svelte components
-The UI was built using the [svelte](https://svelte.dev) framework. The launching component is 'App.svelte' in the root directory. All other display components are in the 'components' folder.
+The UI was built using the [svelte](https://svelte.dev) framework. The launching component is `App.svelte` in the root directory. All other display components are in the `components` folder.
