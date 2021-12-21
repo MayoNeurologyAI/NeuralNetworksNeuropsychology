@@ -12,9 +12,10 @@ The github page running this code can be found [here](https://mayoneurologyai.gi
 
 1. To run the code locally, you will need to have [node](https://nodejs.dev/) installed.
 2. Clone the repository. If you are new to github, you can follow the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-3. Install the dependencies: `npm install`
-4. Run the program: `npm run start`
-5. Open a browser and go to http://localhost:5000
+3. Open a terminal (or command line in windows) and navigate to the cloned repository.
+4. Install the dependencies: `npm install`
+5. Run the program: `npm run start`
+6. Open a browser and go to http://localhost:5000
 
 The user interface was built with the [svelte](https://svelte.dev) framework.
 
