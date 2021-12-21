@@ -23,7 +23,7 @@ The user interface was built with the [svelte](https://svelte.dev) framework.
 All code is located in the 'src' folder.
 
 ### MplLayer
-To understand and evalute the models, start with the `architecture` folder. All networks are composed of 2 or more `MplLayers`. MplLayers contain the code for defining weights and bias nodes, intializing, forward activation and backwards activation. 
+To understand and evalute the models, start with the `architecture` folder. All networks are composed of 2 or more `MplLayers`. MplLayers contain the code for defining weights and bias nodes, intializing, forward activation and weight adjustments. 
 
 ### MplNetwork
 The MplNetwork class is an abstract class that defines how the MplLayers in the network interact. The MplNetwork class is declared in the `networks` folder. All networks, which define the layers and their interactions are also located in the `networks` folder.
