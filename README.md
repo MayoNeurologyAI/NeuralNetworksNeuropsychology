@@ -1,6 +1,10 @@
 # About:
 
-Source code for manuscript to be submitted to Neuropsychology, “Neural network process models support a distributed memory system and aid design of a novel computer adaptive digital memory test for preclinical and prodromal Alzheimer’s disease."
+Source code for paper: 
+
+Stricker, J. L., Corriveau-Lecavalier, N., Wiepert, D. A., Botha, H., Jones, D. T., & Stricker, N. H. (2022). Neural network process simulations support a distributed memory system and aid design of a novel computer adaptive digital memory test for preclinical and prodromal Alzheimer’s disease.Neuropsychology. 
+
+Advance online publication: [https://doi.org/10.1037/neu0000847](https://doi.org/10.1037/neu0000847)
 
 Released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license (CC BY-NC-SA 4.0). Copyright 2021 Mayo Foundation for Medical Education and Research.
 
