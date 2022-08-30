@@ -19,9 +19,8 @@
 <div class="content">
     <div class="subtitle">Studies for the research publication:</div>
     <div class="articleTitle">
-        "Neural network process simulations support a distributed memory system
-        and aid design of a novel computer adaptive digital memory test for
-        preclinical and prodromal Alzheimer’s disease" (in preparation)
+        Stricker, J. L., Corriveau-Lecavalier, N., Wiepert, D. A., Botha, H., Jones, D. T., & Stricker, N. H. (2022). Neural network process simulations support a distributed memory system and aid design of a novel computer adaptive digital memory test for preclinical and prodromal Alzheimer’s disease.Neuropsychology.
+        Advance online publication: <a href="https://doi.org/10.1037/neu0000847">https://doi.org/10.1037/neu0000847</a>
     </div>
     {#each studies as studyProps, index}
         <div class="study">
